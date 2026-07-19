@@ -4,8 +4,9 @@
   "version": "0.1",
   "type": "module",
   "scripts": {
-    "dev": "bun run build && wrangler dev",
-    "deploy": "bun run build && wrangler deploy",
+    "dev": "bun run build && bun wrangler dev",
+    "build": "vite build",
+    "deploy": "bun run build && bun wrangler deploy",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
