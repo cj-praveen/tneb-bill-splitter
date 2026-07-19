@@ -1,0 +1,14 @@
+{
+  "name": "tneb-bill-splitter",
+  "main": "main.js",
+  "compatibility_date": "2024-03-20",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": "./dist"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
